@@ -17,36 +17,22 @@ Image and label files should have the same filename except for their extension (
 
 Data yaml files can be modeled after `/data/xxx.yaml` and should be saved in the `/data/` folder. The images and text labels should be organized into folders as follows:
 
->|---datasets<br>
-
->>|---subdirectory<br>
-
->>>|---images<br>
-
->>>>|---train<br>
-
->>>>>|---img-xxx.jpg<br>
-
->>>>>|---...<br>
-
->>>>|---val<br>
-
->>>>>|---img-xxx.jpg<br>
-
->>>>>|---...<br>
-
->>>|---labels<br>
-
->>>>|---train<br>
-
->>>>>|---img-xxx.txt<br>
-
->>>>>|---...<br>
-
->>>>|---val<br>
-
->>>>>|---img-xxx.txt<br>
-
->>>>>|---...<br>
-
-
+```
+.
+│  main_directory
+│  
+├─images
+│  ├─train
+│  │      img-00001-00001.jpg
+│  │      ...
+│  └─val
+│          img-00200-00001.jpg
+│          ...
+└─labels
+    ├─train
+    │      img-00001-00001.txt
+    │      ...
+    └─val
+            img-00200-00001.txt
+            ...
+```
