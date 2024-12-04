@@ -1,5 +1,5 @@
 # Detection_SM
-This repository includes the source code for YOLO_SM.<br>
+This repository includes the source code for yolo_SM.<br>
 It is recommanded to use the ananconda and create the virtual environment for the model to detect spinal metastasis. The yolov5 folder can be refered for the environment configuration.<br>
 ## Installation
 Trained and validated with Python3.8.<br>
