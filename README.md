@@ -1,6 +1,6 @@
 # Detection_SM
 This repository includes the source code for yolo_SM.<br>
-It is recommanded to use the ananconda and create the virtual environment for the model to detect spinal metastasis. The yolov5 folder can be refered for the environment configuration.<br>
+It is recommanded to use the ananconda and create the virtual environment for the model to detect spinal metastasis.<br>
 ## Installation
 Trained and validated with Python3.8.<br>
 PyTorch should be installed with the appropriate CUDA version for your hardware before installing requirements.txt.<br>
