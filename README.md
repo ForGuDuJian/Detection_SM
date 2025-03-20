@@ -1,5 +1,5 @@
 # Detection_SM
-This repository includes the source code for YOLO_SM.<br>
+This repository includes the source code for yolo_SM.<br>
 It is recommanded to use the ananconda and create the virtual environment for the model to detect spinal metastasis. The yolov5 folder can be refered for the environment configuration.<br>
 ## Installation
 Trained and validated with Python3.8.<br>
@@ -37,4 +37,4 @@ Data yaml files can be modeled after `/data/xxx.yaml` and should be saved in the
             ...
 ```
 ## Train and inference
-For training and inference with YOLOv5, please modify and run the `train.py` and `val.py`. The `YOLOv5_Detection_SM.ipynb` shows training and inference examples for YOLOv5.
+For training and inference with yolo_SM, please modify and run the `train.py` and `val.py`.
